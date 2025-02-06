@@ -1,0 +1,13 @@
+INSERT
+->insert into <table name> values ();
+->insert into <table name> (coloumns...) values ();
+->insert into <table name> (select * from <anther table name>)
+->insert into <table name> values (select * from <anther table name> where <>)
+
+
+UPDATE
+update <table name> set <>,<>,<> where <>
+
+DELETE
+delete from <table name> where <>
+

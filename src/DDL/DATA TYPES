@@ -1,0 +1,15 @@
+->TO REPRESENT "STRING" WE USE varchar or char
+
+->TO REPRESENT WHOLE NUMBER WE USE int
+
+->TO REPRESENT "FLOATING POINT" WE USE float
+
+->TO REPRESENT "BINARY" WE USE bool -> 0 fro false and 1 for true
+
+->TO REPRESENT "DATES" WE USE -> data,time,timestamp
+
+->BLOB - >BINARY LARGE OBJECTS
+
+->car,varchar,time,date want to represent in single(` `) quotes not the double quotes
+
+->++IN BOOK

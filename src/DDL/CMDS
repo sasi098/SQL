@@ -1,0 +1,17 @@
+TO CREATE DATABASE
+->create database "database name"
+
+->OT ENTER INTO THAT DATABASE NAME
+use <database name>;
+
+->CREATE TABLE
+create table <tablenmae> (<coloumn1 name>datatype,<coloumn2 name> datatype);
+
+->TO SEE STRUTURE OF TABLE
+desc <table name>
+
+->to add values
+insert into <tablename> values (),();
+
+->TO SEE ALL VLAUES IN TABLE
+select * from <table name>

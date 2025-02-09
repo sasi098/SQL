@@ -1,0 +1,13 @@
+->CREATE NEW HOST -> create user user2@localhost identified by 'tiger';
+->where user2@localhost is local hast name as user2
+and password is tiger
+
+->to show users -> select Host, User from mysql.user;
+
+->to grant permissions ->  grant all on *.* to user2@localhost with grant option;
+
+->to show permissions -> show grants for user2@localhost;
+
+ revoke update on *.* from user2@localhost;
+
+ ->drop user user2@localhost;
